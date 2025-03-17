@@ -1,0 +1,49 @@
+button {
+    @extend %button;
+}
+
+:root {
+    outline: none;
+    font-size: 10px;
+    font-family: $font-josefin;
+}
+body {
+    border: 1.5rem solid $white;
+}
+
+.centered-wrapper {
+    max-width: 1200px;
+    padding: 0 45px;
+    margin: 0 auto;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 3.6rem;
+    line-height: 2.6rem;
+    color: $white;
+}
+h5 {
+    font-family: $font-josefin;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.6rem;
+    color: $white;
+    text-transform: uppercase;
+}
+
+h6 {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.6rem;
+    color: $white;
+    font-family: $font-josefin;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: $white;
+}
+

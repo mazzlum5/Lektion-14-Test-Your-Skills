@@ -1,0 +1,22 @@
+%button {
+    outline: none;
+    width: 22.8rem;
+    height: 6.3rem;
+    background-color: $blue;
+    color: $white;
+    font-family: 'Aleo';
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    border: none;
+    text-decoration: none;
+    
+    &:hover {
+      background-color: adjust-color(#496BFE, $lightness: -5%);
+        cursor: pointer;
+        
+
+    }
+}
